@@ -1,0 +1,4 @@
+C:/Users/Kot/CLionProjects/hw36/tree_color_circle/cmake-build-debug/CMakeFiles/tree_color_circle.dir
+C:/Users/Kot/CLionProjects/hw36/tree_color_circle/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kot/CLionProjects/hw36/tree_color_circle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Kot/CLionProjects/hw36/tree_color_circle/cmake-build-debug/CMakeFiles/tree_color_circle_autogen.dir
