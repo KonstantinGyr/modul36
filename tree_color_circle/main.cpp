@@ -2,7 +2,7 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 #include <QSlider>
-#include <QPixmap>
+//#include <QPixmap>
 #include <QPainter>
 #include <QPaintEvent>
 
@@ -45,7 +45,7 @@ void ImageCircle::paintEvent(QPaintEvent *e)
 
 QSize ImageCircle::sizeHint() const
 {
-    return QSize(200, 200);
+    return {200, 200};
 }
 
 QSize ImageCircle::minimumSizeHint() const
@@ -74,28 +74,28 @@ void ImageCircle::threeColor()
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
     auto *myWidget = new QWidget;
-    ImageCircle circle (nullptr);
+    auto *circle = new ImageCircle(nullptr);
     auto *slider = new QSlider(Qt::Horizontal);
     slider->setMinimum(0);
     slider->setMaximum(100);
     auto *layout = new QVBoxLayout(myWidget);
-    layout->addWidget(&circle);
+    layout->addWidget(circle);
     layout->addWidget(slider);
-    QObject::connect(slider, &QSlider::valueChanged, [&circle](int newValue)
+    QObject::connect(slider, &QSlider::valueChanged, [circle](int newValue)
     {
         if(newValue<=33){
-            circle.oneColor();
+            circle->oneColor();
         }
         else if(newValue>66){
-            circle.threeColor();
+            circle->threeColor();
         }
         else{
-            circle.twoColor();
+            circle->twoColor();
         }
     });
     myWidget->setFixedSize(200, 220);
     myWidget->show();
-    return app.exec();
+    return QApplication::exec();
 }
 
 #include <main.moc>

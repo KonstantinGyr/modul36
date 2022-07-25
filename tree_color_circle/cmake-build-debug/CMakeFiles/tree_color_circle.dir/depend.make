@@ -79,7 +79,6 @@ CMakeFiles/tree_color_circle.dir/main.cpp.obj: \
  C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
  C:/Qt/5.15.2/mingw81_64/include/QtGui/QPaintEvent \
  C:/Qt/5.15.2/mingw81_64/include/QtGui/QPainter \
- C:/Qt/5.15.2/mingw81_64/include/QtGui/QPixmap \
  C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \

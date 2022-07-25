@@ -266,7 +266,6 @@ C:/Users/Kot/CLionProjects/hw36/tree_color_circle/main.cpp
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/QPaintEvent
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/QPainter
- mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/QPixmap
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h

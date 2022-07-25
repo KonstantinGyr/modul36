@@ -752,10 +752,6 @@ C:/Qt/5.15.2/mingw81_64/include/QtGui/QPainter
 qpainter.h
 C:/Qt/5.15.2/mingw81_64/include/QtGui/qpainter.h
 
-C:/Qt/5.15.2/mingw81_64/include/QtGui/QPixmap
-qpixmap.h
-C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixmap.h
-
 C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
@@ -1288,8 +1284,6 @@ QPushButton
 QVBoxLayout
 -
 QSlider
--
-QPixmap
 -
 QPainter
 -
